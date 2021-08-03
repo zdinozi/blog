@@ -1,0 +1,12 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+main:
+    path: /
+    controller: App\Controller\main::main
+log_in:
+    path: /log_in
+    controller: App\Controller\main::log_in
+sign_up:
+    path: /sign_up
+    controller: App\Controller\main::sign_up
