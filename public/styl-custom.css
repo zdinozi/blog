@@ -1,0 +1,13 @@
+#login{
+    width:30%;
+    border: 2px solid royalblue;
+    border-radius: 10%;
+    position: absolute;
+    left:35%;
+}
+#login form{
+    padding: 10px;
+}
+#main-body{
+    text-align: center;
+}

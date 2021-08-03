@@ -47,6 +47,11 @@ class Users
      */
     private $password;
 
+    /**
+     * @ORM\Column(type="string", length=25)
+     */
+    private $Name;
+
     public function getId(): ?int
     {
         return $this->id;
